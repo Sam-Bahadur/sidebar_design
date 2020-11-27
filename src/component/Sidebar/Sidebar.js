@@ -24,12 +24,12 @@ export default function Sidebar() {
         <li>
           <NavLink to="/videos">Videos</NavLink>
         </li>
-        {/* <li>
+        <li>
           <NavLink to="/publication">Publications</NavLink>
         </li>
         <li>
           <NavLink to="/news">News</NavLink>
-        </li> */}
+        </li>
       </div>
     </div>
   );
