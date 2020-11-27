@@ -10,6 +10,7 @@ import Gallary from "./component/Gallary/Gallary";
 import Publication from "./component/Publication/Publication";
 import Check from "./component/MobileNavbar/Check";
 import Videos from "./component/Videos/Videos";
+import News from "./component/News/News.js";
 
 export default class App extends Component {
   state = {
@@ -41,6 +42,7 @@ export default class App extends Component {
               <Route exact path="/gallery" exact component={Gallary} />
               <Route exact path="/publication" exact component={Publication} />
               <Route exact path="/videos" exact component={Videos} />
+              <Route exact path="/news" exact component={News} />
               <Route exact path="/" exact component={Home} />
             </Switch>
           </div>
