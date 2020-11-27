@@ -1,0 +1,48 @@
+@import "../common/variables.module.scss";
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  transform: translateY(50%);
+  .navlist {
+    // padding: 0rem 3rem;
+    width: max-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    li {
+      font-size: $heading + 0.25rem;
+      font-weight: 700;
+      list-style: none;
+      cursor: pointer;
+      // margin: 1rem;
+      margin-bottom: 0.5rem;
+      width: max-content;
+      a {
+        text-decoration: none;
+        color: white;
+        transition: 0.2s ease-in-out;
+        position: relative;
+        &:after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          height: 3px;
+          background: bisque;
+          width: 0;
+          border-radius: 10px;
+          transition: 0.2s all ease-in-out;
+        }
+        &:hover::after {
+          width: 100%;
+          left: 0;
+        }
+      }
+      img {
+        width: 100px;
+      }
+    }
+  }
+}

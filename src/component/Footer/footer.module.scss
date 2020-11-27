@@ -1,0 +1,33 @@
+.footer {
+  background: rgb(48, 48, 48);
+  padding: 1rem;
+  color: whitesmoke;
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+  min-height: 5vh;
+  .footer_title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+  .copyright {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    margin-left: auto;
+    flex-basis: content;
+  }
+  .media_name {
+    margin-top: -1rem;
+    margin-left: auto;
+    width: max-content;
+  }
+  .media_name span {
+    margin-left: 5px;
+    font-size: 1rem;
+    color: goldenrod;
+  }
+}

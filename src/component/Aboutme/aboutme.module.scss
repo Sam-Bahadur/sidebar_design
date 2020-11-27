@@ -1,0 +1,58 @@
+.aboutme_container {
+  width: 70%;
+  margin: 1rem auto;
+  padding: 1rem;
+  color: rgb(72, 60, 5);
+}
+
+.aboutme_container ul {
+  padding: 0;
+}
+
+.content_container {
+  padding: 2rem;
+  transition: all 0.3s ease-in-out;
+}
+.content_container h2 {
+  font-size: var(--desc);
+}
+.content_container h3 {
+  font-size: var(--title);
+}
+
+.content_container h4 {
+  font-size: 16px;
+  text-decoration: underline;
+}
+.content_container h5 {
+  font-size: 14px;
+  font-style: italic;
+}
+.content_container h6 {
+  padding-top: 1rem;
+  font-size: 22px;
+  font-weight: 650;
+}
+.content_container li {
+  list-style-type: disc;
+  margin-left: 2rem;
+}
+// .content_container:hover {
+//   width: 100%;
+//   box-shadow: 0 0 20px 0px rgba(54, 54, 54, 0.1);
+//   background: rgb(194, 194, 194);
+// }
+
+.icon_color {
+  color: black;
+  display: inline-block;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.icon_color h3 {
+  font-size: var(--title);
+  padding-left: 1rem;
+  color: black;
+  display: inline-block;
+}

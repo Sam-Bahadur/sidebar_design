@@ -1,0 +1,100 @@
+.contactme {
+  min-height: 90vh;
+  padding: 2rem 0rem;
+  background: rgb(77, 77, 77);
+  background-image: url(pattern.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  font-size: 1rem;
+  font-weight: 700;
+  color: whitesmoke;
+  h4 {
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Ubuntu", sans-serif;
+  }
+  label {
+    font-size: 1.2rem;
+  }
+}
+
+.contact_seperation {
+  margin: 0 auto;
+  width: 10%;
+  height: 2px;
+  background: rgba(245, 245, 245, 0.2);
+}
+
+.submit_btn {
+  padding: 0.3rem 1rem;
+  background: rgb(0, 3, 173);
+  color: whitesmoke;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+}
+
+.contact_me_flex {
+  width: 100%;
+  /* background: rgb(250, 123, 100); */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.contact_me_content {
+  /* background: teal; */
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 1rem;
+  span {
+    margin-right: 1rem;
+  }
+  .location:hover {
+    color: rgb(13, 0, 88);
+  }
+  .phone:hover {
+    color: rgb(15, 190, 9);
+  }
+  .email:hover {
+    color: #d44638;
+  }
+  h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-left: 1rem;
+  }
+  a {
+    margin-left: 0rem;
+    color: whitesmoke;
+    font-size: 1.5rem;
+  }
+  a:hover {
+    color: #4267b2;
+  }
+  svg {
+    transition: all 0.3s ease-in-out;
+  }
+  svg:hover {
+    transform: translateY(-5px);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contactme h4 {
+    font-weight: 700;
+    font-size: var(--titlemobile);
+  }
+  .contact_me_content {
+    font-size: var(--descmobile);
+  }
+  .contact_me_content h3 {
+    font-size: var(--title2mobile);
+  }
+}

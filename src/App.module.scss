@@ -1,0 +1,13 @@
+@import "./component/common/variables.module.scss";
+.body {
+  display: flex;
+  .sidebar {
+    background: $secondary;
+    width: 20%;
+  }
+  .body_content {
+    background: $background;
+    flex: 1;
+    min-height: 100vh;
+  }
+}

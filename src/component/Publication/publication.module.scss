@@ -1,0 +1,43 @@
+@import "../common/variables.module.scss";
+
+.publication_container {
+  width: 70%;
+  margin: 2rem auto;
+}
+
+.publication_container ul {
+  line-height: 2rem;
+}
+
+.publication_container ul li {
+  list-style: none;
+  text-indent: -2rem;
+  color: black;
+}
+.publication_container span {
+  color: black;
+  font-size: $heading2;
+}
+
+.publication_container a {
+  text-decoration: none;
+  display: inline;
+  margin-left: 1rem;
+  font-size: $heading2;
+  color: rgb(0, 71, 171);
+}
+
+.publication_container a:hover {
+  color: darkblue;
+}
+
+@media only screen and (max-width: 768px) {
+  .publication-container {
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1rem;
+  }
+  .publication_container a {
+    font-size: var(--descmobile);
+  }
+}
